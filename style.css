@@ -20,7 +20,7 @@ body {
   font-size: 1.4rem;
   line-height: 1.5;
   font-weight: 700;
-  font-family: 'Fraunces', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   background-color: var(--cream);
   color: var(--Grey);
 }
@@ -51,6 +51,7 @@ body {
   font-size: 4rem;
   width: 32rem;
   line-height: 1.2;
+  font-family: 'Fraunces', sans-serif;
 }
 .profile-card__description {
   font-size: 3.2rem;
@@ -79,6 +80,7 @@ body {
   color: var(--Green-700);
   font-size: 4.6rem;
   position: relative;
+  font-family: 'Fraunces', sans-serif;
 }
 .card-price__promo {
   position: absolute;
