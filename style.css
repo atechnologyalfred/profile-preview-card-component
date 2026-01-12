@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --black: hsl(212, 21%, 14%);
+  --Grey: hsl(228, 12%, 48%);
+  --cream: hsl(30, 38%, 92%);
+  --white: hsl(0, 0%, 100%);
+  --Green-500:  hsl(158, 36%, 37%);
+  --Green-700:  hsl(158, 42%, 18%);
+}
+
+
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.4rem;
+  line-height: 1.5;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+  background-color: var(--cream);
+  color: var(--Grey);
+}
+.container {
+  width: 144rem;
+  max-width: 100%;
+  padding: 2rem;
+  margin: 0 auto;
+  display: flex;
+  height: 98vh;
+}
+.profile-card-image, .profile-card {
+  flex: 1;
+}
+.profile-card-image img {
+  width: 100%;
+  height: 100%;
+}
+.profile-card {
+  background-color: var(--white);
+  padding: 6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.profile-card__heading {
+  color: var(--black);
+  font-size: 4rem;
+  width: 32rem;
+  line-height: 1.2;
+}
+.profile-card__description {
+  font-size: 3.2rem;
+}
+.card-btn {
+  background-color: var(--Green-700);
+  padding: 2.4rem 4.8rem;
+  border-radius: 1.4rem;
+  color: var(--white);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    border: none;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 2rem;
+}
+.card-btn:hover {
+  background-color: var(--Green-500);
+}
+
+
+.card-price {
+  color: var(--Green-700);
+  font-size: 4.6rem;
+  position: relative;
+}
+.card-price__promo {
+  position: absolute;
+  top: 2rem;
+  right: 16rem;
+  font-size: 3.6rem;
+  color: var(--Grey);
+}
+.profile-card__title--perfume {
+  letter-spacing: 1.2rem;
+}
+
+
+
+@media(max-width:375px) {
+ .container {
+  flex-direction: column;
+}
+
+
+.profile-card__heading {
+  width: 100%;
+}
+
+html {
+  font-size: 35%;
+}
+.card-price__promo {
+  top: 2.4rem;
+  right: 10rem;
+  font-size: 3rem;
+}
+
+.profile-card {
+  background-color: var(--white);
+  padding: 4rem;                    
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 2rem;
+}
+}
+
