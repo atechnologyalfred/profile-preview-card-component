@@ -48,8 +48,8 @@ body {
 }
 .profile-card__heading {
   color: var(--black);
-  font-size: 4rem;
-  width: 32rem;
+  font-size: 4.4rem;
+  width: 36rem;
   line-height: 1.2;
   font-family: 'Fraunces', sans-serif;
 }
